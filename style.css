@@ -7,13 +7,13 @@ body {
     margin-inline: max(1em, (100% - 100ch) / 2);  
   }
 
-  nav{
+nav{
     display: flex;
     margin-bottom: 1em; 
     border-bottom: 1px solid oklch(80% 3% 200);
   }
 
-  nav a {
+nav a {
     text-decoration: none; 
     color: inherit; 
     text-align: center; 
@@ -21,12 +21,12 @@ body {
     display: inline-block;
   }
 
-  nav a.current {
+nav a.current {
     border-bottom: 0.4em solid oklch(80% 3% 200); 
     padding-bottom: calc(0.5em - 0.4em);
   }
 
-  nav ul, nav ul li {
+nav ul, nav ul li {
     display: contents;
     flex: 1;
   }  

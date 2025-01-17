@@ -7,6 +7,11 @@ body {
     margin-inline: max(1em, (100% - 100ch) / 2);  
   }
 
+  nav{
+    display: flex;
+  }
+
   nav ul, nav ul li {
     display: contents;
+    flex: 1;
   }  

@@ -1,3 +1,12 @@
+:root {
+  --color-accent: oklch(65% 50% 0);
+  --color-accent-light: oklch(from var(--color-accent) 95% 5% h);
+}
+
+html {
+  accent-color: var(--color-accent);
+}
+
 body {
     /* Set line height to 1.5 times the font size
          and use the OS’s UI font as the website font
@@ -11,7 +20,7 @@ nav{
     display: flex;
     margin-bottom: 1em; 
     border-bottom: 1px solid oklch(80% 3% 200);
-    justify-content: space-around; /* Space items evenly, including edges */
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -23,12 +32,19 @@ nav a {
     padding: 0.5em;
     display: inline-block;
     width: 100%;
+    transition: border-color 0.3s ease;
+    background-color: var(--color-accent-light);
   }
 
 nav a.current {
     flex:1;
-    border-bottom: 0.4em solid oklch(80% 3% 200); 
+    border-bottom: 0.4em solid var(--color-accent);
     padding-bottom: calc(0.5em - 0.4em);
+  }
+
+nav a:hover {
+    border-bottom: 0.4em solid var(--color-accent);
+    background-color: var(--color-accent-light);
   }
 
 nav ul, nav ul li {

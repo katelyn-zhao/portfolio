@@ -98,14 +98,10 @@ form input, form textarea, form button {
   font-size: 3em;
   text-align: center;
   color: var(--color-accent-dark);
-  margin-bottom: 1em;
 }
 
 .cv-resume section header h2 {
   font-size: 2em;
   margin-top: 2em;
-  margin-bottom: 0.5em;
   color: var(--color-accent-dark);
-  border-bottom: 2px solid var(--color-accent-dark);
-  padding-bottom: 0.25em;
 }

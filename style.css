@@ -102,6 +102,5 @@ form input, form textarea, form button {
 
 .cv-resume section header h2 {
   font-size: 2em;
-  margin-top: 2em;
   color: var(--color-accent-dark);
 }

@@ -49,3 +49,8 @@ nav a:hover {
 nav ul, nav ul li {
     display: contents;
   }  
+
+input, textarea, button {
+    font: inherit; 
+    color: inherit;
+  }

@@ -92,3 +92,53 @@ form input, form textarea, form button {
     grid-row: span 3; 
     gap: 1em;
   }
+
+.cv-resume body {
+  background-color: #f9f9f9; 
+  color: #333; 
+  padding: 2em 1em; 
+}
+
+.cv-resume header h1 {
+  font-size: 3em;
+  text-align: center;
+  color: var(--color-accent);
+  margin-bottom: 1em;
+}
+
+.cv-resume section header h2 {
+  font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: var(--color-accent);
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 0.25em;
+}
+
+.cv-resume section p {
+  font-size: 1em;
+  margin-bottom: 1em;
+  line-height: 1.8;
+  color: #444;
+}
+
+.cv-resume section ul {
+  list-style-type: disc;
+  margin: 0 0 1.5em 2em;
+}
+
+.cv-resume section ul li {
+  margin-bottom: 0.5em;
+}
+
+.cv-resume section p b {
+  color: #222;
+}
+
+.cv-resume section p i {
+  color: #555;
+}
+
+.cv-resume section ul li b {
+  color: var(--color-accent);
+}

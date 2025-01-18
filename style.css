@@ -103,5 +103,5 @@ form input, form textarea, form button {
   font-size: 2em;
   margin-top: 2em;
   margin-bottom: 0.5em;
-  border-bottom: 2px solid var(--color-accent-dark);
+  border-bottom: 2px solid var(--color-accent);
 }

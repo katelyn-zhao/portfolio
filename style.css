@@ -11,7 +11,7 @@ nav{
     display: flex;
     margin-bottom: 1em; 
     border-bottom: 1px solid oklch(80% 3% 200);
-    justify-content: space-around;
+    justify-content: space-around; /* Space items evenly, including edges */
     align-items: center;
   }
 
@@ -31,4 +31,5 @@ nav a.current {
 nav ul, nav ul li {
     display: contents;
     flex: 1;
+    width: 100%;
   }  

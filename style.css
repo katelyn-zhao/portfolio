@@ -50,18 +50,21 @@ nav ul, nav ul li {
     display: contents;
   }  
 
+
 form {
     display: grid; 
     grid-template-columns: auto 1fr; 
     gap: 1em; 
+    max-width: 600px; 
     margin: 0 auto; 
-    padding: 1em; 
+    padding: 1em;
   }
 
 form label {
-  grid-column: 1; 
-  text-align: right; 
-  margin-right: 1em;
+  display: grid; 
+  grid-template-columns: subgrid; 
+  grid-column: 1 / -1; 
+  gap: 0.5em; 
 }
 
 form input, form textarea, form button {

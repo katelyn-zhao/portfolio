@@ -1,7 +1,7 @@
 :root {
   --color-accent: oklch(72.13% 0.1371 264.57);
   --color-accent-light: oklch(from var(--color-accent) 95% 5% h);
-  --color-accent-dark: oklch(from var(--color-accent) 40% 10% h);
+  --color-accent-dark: oklch(from var(--color-accent) 50% 10% h);
 }
 
 html {
@@ -97,7 +97,6 @@ form input, form textarea, form button {
 .cv-resume header h1 {
   font-size: 3em;
   text-align: center;
-  margin-bottom: 1em;
 }
 
 .cv-resume section header h2 {
@@ -105,5 +104,4 @@ form input, form textarea, form button {
   margin-top: 2em;
   margin-bottom: 0.5em;
   border-bottom: 2px solid var(--color-accent-dark);
-  padding-bottom: 0.25em;
 }

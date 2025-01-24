@@ -5,10 +5,10 @@ function $$(selector, context = document) {
 }
 
 let pages = [
-    { url: 'https://katelyn-zhao.github.io/portfolio/', title: 'Home' },
-    { url: 'https://katelyn-zhao.github.io/portfolio/projects/', title: 'Projects' },
-    { url: 'https://katelyn-zhao.github.io/portfolio/cv-resume/', title: 'CV/Resume'},
-    { url: 'https://katelyn-zhao.github.io/portfolio/contact/', title:'Contact'},
+    { url: '/', title: 'Home' },
+    { url: 'projects/', title: 'Projects' },
+    { url: 'cv-resume/', title: 'CV/Resume'},
+    { url: 'contact/', title:'Contact'},
     { url: 'https://github.com/katelyn-zhao', title:'Github'}
   ];
 
@@ -21,13 +21,4 @@ for (let p of pages) {
     nav.insertAdjacentHTML('beforeend', `<a href="${url}">${title}</a>`);
   }
 
-const navLinks = $$("nav a");
-
-let currentLink = navLinks.find(
-      (a) => a.host === location.host && a.pathname === location.pathname
-    );
-  
-if (currentLink) {
-      currentLink.classList.add('current');
-    }
-  
+const ARE_WE_HOME = document.documentElement.classList.contains('home');

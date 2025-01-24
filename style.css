@@ -50,7 +50,7 @@ nav a.current {
 
 nav a:hover {
     border-bottom: 0.4em solid var(--color-accent);
-    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);;
+    background-color: color-mix(in oklch, var(--color-accent), canvas 50%);;
   }
 
 nav ul, nav ul li {
@@ -74,7 +74,7 @@ form label {
   gap: 0.5em; 
 }
 
-form input, form textarea, form button {
+form input, form textarea, form button, .color-scheme select{
     grid-column: 2; 
     width: 100%; 
     box-sizing: border-box; 
@@ -105,4 +105,12 @@ html.projects body > div {
   margin-top: 2em;
   margin-bottom: 0.5em;
   border-bottom: 2px solid var(--color-accent);
+}
+
+.color-scheme {
+  position: absolute; 
+  top: 1rem; 
+  right: 1rem; 
+  font-size: 80%; 
+  font-family: inherit;
 }

@@ -2,6 +2,7 @@
   --color-accent: oklch(72.13% 0.1371 264.57);
   --color-accent-light: oklch(from var(--color-accent) 95% 5% h);
   --color-accent-dark: oklch(from var(--color-accent) 50% 10% h);
+  color-scheme: light dark
 }
 
 html {

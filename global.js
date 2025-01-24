@@ -5,10 +5,11 @@ function $$(selector, context = document) {
 }
 
 let pages = [
-    { url: '/', title: 'Home' },
-    { url: 'projects/', title: 'Projects' },
-    { url: 'cv-resume/', title: 'CV/Resume'},
-    { url: 'contact/', title:'Contact'}
+    { url: 'https://katelyn-zhao.github.io/portfolio/', title: 'Home' },
+    { url: 'https://katelyn-zhao.github.io/portfolio/projects/', title: 'Projects' },
+    { url: 'https://katelyn-zhao.github.io/portfolio/cv-resume/', title: 'CV/Resume'},
+    { url: 'https://katelyn-zhao.github.io/portfolio/contact/', title:'Contact'},
+    { url: 'https://github.com/katelyn-zhao', title:'Github'}
   ];
 
 let nav = document.createElement('nav');

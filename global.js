@@ -18,11 +18,22 @@ document.body.prepend(nav);
 for (let p of pages) {
     let url = p.url;
     let title = p.title;
-    nav.insertAdjacentHTML('beforeend', `<a href="${url}">${title}</a>`);
+    let a = document.createElement('a');
+    a.href = url;
+    a.textContent = title;
+    nav.append(a);
   }
 
 const ARE_WE_HOME = document.documentElement.classList.contains('home');
 
 if (!ARE_WE_HOME && !url.startsWith('http')) {
     url = !ARE_WE_HOME && !url.startsWith('http') ? '../' + url : url;
+  }
+
+if (a.host === location.host && a.pathname === location.pathname) {
+    a.classList.add('current');
+  }
+
+if (a.host !== location.host) {
+    a.target = "_blank";
   }

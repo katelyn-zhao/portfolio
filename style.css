@@ -81,13 +81,13 @@ form input, form textarea, form button {
     font: inherit; 
   }
 
-.projects {
+html.projects body > div {
     display: grid; 
     grid-template-columns: repeat(auto-fill, minmax(15em, 1fr)); 
     gap: 1em;
   }
 
-.projects article {
+  html.projects body > div article {
     display: grid; 
     grid-template-rows: subgrid; 
     grid-row: span 3; 

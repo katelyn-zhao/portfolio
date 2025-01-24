@@ -51,15 +51,23 @@ document.body.insertAdjacentHTML(
 
 const select = document.querySelector('#color-scheme-select');
 
-select.addEventListener('input', function (event) {
-  const selectedScheme = event.target.value;
-
-  if (selectedScheme === 'auto') {
-    document.documentElement.style.removeProperty('color-scheme');
-    document.documentElement.removeAttribute('data-theme');
-  } 
-  else {
-    document.documentElement.style.setProperty('color-scheme', selectedScheme);
-    document.documentElement.setAttribute('data-theme', selectedScheme);
+function updateColorScheme(scheme) {
+    if (scheme === 'auto') {
+      document.documentElement.style.removeProperty('color-scheme');
+      document.documentElement.removeAttribute('data-theme');
+    } 
+    else {
+      document.documentElement.style.setProperty('color-scheme', scheme);
+      document.documentElement.setAttribute('data-theme', scheme);
+    }
   }
+
+const savedScheme = localStorage.getItem('colorScheme') || 'auto'; 
+select.value = savedScheme; 
+updateColorScheme(savedScheme); 
+
+select.addEventListener('input', (event) => {
+  const selectedScheme = event.target.value;
+  localStorage.setItem('colorScheme', selectedScheme);
+  updateColorScheme(selectedScheme);
 });

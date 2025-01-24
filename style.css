@@ -80,6 +80,7 @@ form input, form textarea, form button, .color-scheme select{
     box-sizing: border-box; 
     padding: 0.5em; 
     font: inherit; 
+    border-radius: 0.5rem;
   }
 
 html.projects body > div {
@@ -113,4 +114,5 @@ html.projects body > div {
   right: 1rem; 
   font-size: 80%; 
   font-family: inherit;
+  border-radius: 0.5rem;
 }

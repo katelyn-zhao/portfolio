@@ -1,5 +1,5 @@
 :root {
-  --color-accent: oklch(72.13% 0.3 264.57);
+  --color-accent: oklch(72.13% 0.25 250);
   --color-accent-light: oklch(from var(--color-accent) 95% 5% h);
   --color-accent-dark: oklch(from var(--color-accent) 50% 10% h);
   color-scheme: light dark
@@ -50,7 +50,7 @@ nav a.current {
 
 nav a:hover {
     border-bottom: 0.4em solid var(--color-accent);
-    background-color: color-mix(in oklch, var(--color-accent), canvas 25%);;
+    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);;
   }
 
 nav ul, nav ul li {

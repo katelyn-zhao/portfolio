@@ -20,9 +20,9 @@ const ARE_WE_HOME = document.documentElement.classList.contains('home');
 for (let p of pages) {
     let url = p.url;
     let title = p.title;
-    if (!ARE_WE_HOME && !url.startsWith('http')) {
+    if (!ARE_WE_HOME && !url.startsWith('http') && !url.startsWith('../')) {
         url = '../' + url;
-      }
+     }    
     let a = document.createElement('a');
     a.href = url;
     a.textContent = title;

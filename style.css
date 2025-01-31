@@ -1,118 +1,124 @@
-:root {
-  --color-accent: oklch(71.02% 0.0872 250);
-  --color-accent-light: oklch(from var(--color-accent) 95% 5% h);
-  --color-accent-dark: oklch(from var(--color-accent) 50% 10% h);
-  color-scheme: light dark
-}
-
 html {
-  accent-color: var(--color-accent);
+  --color-accent: oklch(70% 0.1 314);
+  color-scheme: light dark;
 }
 
 body {
-    /* Set line height to 1.5 times the font size
-         and use the OS’s UI font as the website font
-       */
-    font: 100%/1.5 system-ui;
-    max-width: 100ch;
-    margin-inline: max(1em, (100% - 100ch) / 2);  
-  }
+  font: 100%/1.5 system-ui;
+  max-width: 100ch;
+  margin-inline: max(1em, (100% - 100ch) / 2);
+  padding: 0 1em;
+  accent-color: var(--color-accent);
+}
 
-h1 {
-    font-size: 400%; 
-    margin-bottom: 0.5em;
-  }
-
-nav{
-    display: flex;
-    margin-bottom: 1em; 
-    border-bottom: 1px solid oklch(50% 10% 200 / 40%);
-    justify-content: space-around;
-    align-items: center;
-  }
+nav {
+  display: flex;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  --border-color: oklch(70% 0.1 314 / 60%);
+  border-bottom-color: var(--border-color);
+}
 
 nav a {
-    flex:1;
-    text-decoration: none; 
-    color: inherit; 
-    text-align: center; 
-    padding: 0.5em;
-    display: inline-block;
-    width: 100%;
-    transition: border-color 0.3s ease;
-  }
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding: 0.5em;
+}
 
 nav a.current {
-    flex:1;
-    border-bottom: 0.4em solid var(--color-accent);
-    padding-bottom: calc(0.5em - 0.4em);
-  }
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-color);
+}
 
 nav a:hover {
-    border-bottom: 0.4em solid var(--color-accent);
-    background-color: color-mix(in oklch, var(--color-accent), canvas 40%);;
-  }
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-color);
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%)
+}
 
-nav ul, nav ul li {
-    display: contents;
-  }  
-
+nav ul, li {
+  display: contents;
+}
 
 form {
-    display: grid; 
-    grid-template-columns: auto 1fr; 
-    gap: 1em; 
-    max-width: 600px; 
-    margin: 0 auto; 
-    padding: 1em;
-  }
+  font: inherit;
+  display: grid; 
+  grid-template-columns: auto 1fr; 
+  gap: 1em; 
+}
 
 form label {
   display: grid; 
   grid-template-columns: subgrid; 
-  grid-column: 1 / -1; 
-  gap: 0.5em; 
+  grid-column: 1; 
 }
 
-form input, form textarea, form button, .color-scheme select{
-    grid-column: 2; 
-    width: 100%; 
-    box-sizing: border-box; 
-    padding: 0.5em; 
-    font: inherit; 
-    border-radius: 0.5rem;
-  }
+form input, form textarea {
+  grid-column: 2; 
+}
 
-html.projects body > div {
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr)); 
-    gap: 1em;
-  }
+form button {
+  grid-column: 1 / -1; 
+}
 
-html.projects body > div article {
-    display: grid; 
-    grid-template-rows: subgrid; 
-    grid-row: span 3; 
-    gap: 1em;
-  }
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
+}
+
+.projects article {
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  gap: 1em;
+}
+
+.projects h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+}
 
 .cv-resume header h1 {
-  font-size: 3em;
   text-align: center;
 }
 
 .cv-resume section header h2 {
-  font-size: 2em;
   margin-top: 2em;
   margin-bottom: 0.5em;
-  border-bottom: 2px solid var(--color-accent);
+  border-bottom: 3px solid var(--color-accent);
 }
 
 .color-scheme {
-  position: absolute; 
-  top: 1rem; 
-  right: 1rem; 
-  font-size: 80%; 
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.color-scheme select{
+  font-size: 80%;
   font-family: inherit;
-  border-radius: 0.5rem;
+}
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#profile-stats dt {
+  grid-row: 1;
+}
+
+#profile-stats dd {
+  grid-row: 2;
 }

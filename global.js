@@ -22,7 +22,7 @@ for (let p of pages) {
     let url = p.url;
     let title = p.title;
     if (!url.startsWith('http')) {
-        url = ARE_WE_HOME ? BASE_PATH + url : '../' + url;
+        url = ARE_WE_HOME ? BASE_PATH + url : BASE_PATH + '../' + url;
     }
     let a = document.createElement('a');
     a.href = url;

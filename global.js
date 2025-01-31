@@ -85,7 +85,7 @@ export async function fetchJSON(url) {
   }
 }
 
-export function renderProjects(project, containerElement) {
+export function renderProjects(project, containerElement, headingLevel = 'h2') {
   // Your code will go here
   containerElement.innerHTML = '';
   project.forEach(project => {

@@ -89,7 +89,7 @@ html.projects body > div {
     gap: 1em;
   }
 
-  html.projects body > div article {
+html.projects body > div article {
     display: grid; 
     grid-template-rows: subgrid; 
     grid-row: span 3; 

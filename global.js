@@ -6,9 +6,9 @@ function $$(selector, context = document) {
 
 let pages = [
     {url: 'portfolio/', title: 'Home'},
-    {url: '/projects/', title: 'Projects'},
-    {url: '/cv-resume/', title: 'CV/Resume'},
-    {url: '/contact/', title: 'Contact'},
+    {url: 'portfolio/projects/', title: 'Projects'},
+    {url: 'portfolio/cv-resume/', title: 'CV/Resume'},
+    {url: 'portfolio/contact/', title: 'Contact'},
     {url: 'https://github.com/katelyn-zhao', title: 'GitHub'}
 ]
 
@@ -20,7 +20,7 @@ const ARE_WE_HOME = document.documentElement.classList.contains('home');
 for (let p of pages) {
     let url = p.url;
     let title = p.title;
-    url = !ARE_WE_HOME && !url.startsWith('http') ? '../' + url : url;
+    // url = !ARE_WE_HOME && !url.startsWith('http') ? '../' + url : url;
     let a = document.createElement('a');
     a.href = url;
     a.textContent = title;

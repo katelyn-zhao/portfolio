@@ -40,7 +40,7 @@ nav a:hover {
   background-color: color-mix(in oklch, var(--color-accent), canvas 85%)
 }
 
-nav ul, li {
+nav ul, nav li {
   display: contents;
 }
 
@@ -121,4 +121,87 @@ h1, h2, h3, h4, h5, h6 {
 
 #profile-stats dd {
   grid-row: 2;
+}
+
+#projects-plot {
+  max-width: 10em;
+  margin-block: 4em;
+  overflow: visible;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 6em;
+  padding: 4em;
+  box-sizing: border-box;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  list-style: none;
+  padding: 1em; 
+  margin: 1em 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1; 
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  flex: 1; 
+  width: 100%; 
+  max-width: 80%;
+  box-sizing: border-box;
+}
+
+.legend .swatch {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: var(--color);
+  border-radius: 50%;
+}
+
+.legend em {
+  font-style: normal;
+  color: #666;
+}
+
+.searchBar {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5em;
+  margin: 1em 0;
+}
+
+svg:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+path.selected {
+  --color: oklch(75.24% 0.1519 5.29) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+li.selected {
+  --color: oklch(75.24% 0.1519 5.29) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
 }

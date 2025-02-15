@@ -1,74 +1,74 @@
 [
-    {
-        "title": "DSC 106 Final Project",
-        "year": "2025",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Corrupti iure facere nesciunt sunt quibusdam esse tempora eius, atque aspernatur quia placeat cumque quasi. Recusandae molestias laborum incidunt blanditiis deserunt aperiam reiciendis illo totam officia perspiciatis, quos esse alias?"
-    },
-    {
-        "title": "DSC 106 Project 3",
-        "year": "2025",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quisquam quidem rerum nisi at, quia porro sunt. Rerum iste, consequatur voluptas perspiciatis fugit eligendi dignissimos non mollitia reiciendis cumque ut, sint explicabo. Iure, ipsum natus atque pariatur vero saepe."
-    },
-    {
-        "title": "DSC 106 Project 2",
-        "year": "2025",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Recusandae ipsum iusto rerum perferendis voluptatem. Ipsa soluta, dolorum quia quaerat, maxime nesciunt recusandae asperiores, possimus tenetur distinctio facilis non? Repellendus et eligendi suscipit earum accusamus soluta saepe molestiae excepturi!"
-    },
-    {
-        "title": "Climate in Major U.S. Cities",
-        "year": "2025",
-        "image": "../images/dsc106-project01.jpg",
-        "description": "A visualization that displays average monthly rainfall data and sunshine hours for six major U.S. cities (Chicago, New York City, Miami, Houston, San Francisco, and San Diego), spanning a full year. Rainfall is represented by the cloud markers while sunshine is represented by the sun markers."
-    },
-    {
-        "title": "MRI Liver Segmentation",
-        "year": "2024",
-        "image": "../images/Figure 1.png",
-        "description": "Implemented multiple advanced segmentation models, specifically convolutional neural networks, to predict and segment the liver from 3D MRIs and CT scans for further analysis of liver characteristics and future diagnosis of liver disease."
-    },
-    {
-        "title": "Image Registration for Cancer Treatment Dose Delivery",
-        "year": "2024",
-        "image": "../images/img_reg.jpg",
-        "description": "Performed image registration across multi-phase MRI scans (arterial, delayed, portal venous, precontrast) for pre- and post-treatment analysis of cancer dose delivery."
-    },
-    {
-        "title": "World Marriage Analysis",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Statistical analysis that uses marriage data from the United Nations to answer the question “is there a statistically significant direct correlation between age at marriage and divorce rates in Western countries from 1950 to 2019?”."
-    },
-    {
-        "title": "Kaggle Machine Learning & Data Science Survey Statistical Analysis",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "An in-depth statistical analysis of the Kaggle Machine Learning & Data Science Survey, offering insights into the demographics, trends, and disparities within the data science and machine learning community."
-    },
-    {
-        "title": "League of Legends Dragon Analysis",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "A comprehensive data science project that encompasses all components of statistical analysis, starting with exploratory data analysis, followed by hypothesis testing and prediction models. The primary focus of this project is to analyze the relationships between in game neutral objectives (specifically Dragons) and game outcome."
-    },
-    {
-        "title": "Basic Image Processing Application",
-        "year": "2023",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "A basic image processing application that allows users to apply various filters to images, such as grayscale, sepia, and blur. The application also simulates standard and premium versions of a monetized app."
-    },
-    {
-        "title": "British Bake Off Data Analysis",
-        "year": "2023",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "A data analysis project that explores the relationships between various elements of the British Bake Off. The project uses data visualization techniques to identify trends and patterns in the data."
-    },
-    {
-        "title": "Restuarant Analysis",
-        "year": "2023",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "A data analysis project that explores data about several restaurants and their rankings."
-    }
+  {
+    "title": "DSC 106 Final Project",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Corrupti iure facere nesciunt sunt quibusdam esse tempora eius, atque aspernatur quia placeat cumque quasi. Recusandae molestias laborum incidunt blanditiis deserunt aperiam reiciendis illo totam officia perspiciatis, quos esse alias?"
+  },
+  {
+    "title": "DSC 106 Project 3",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Quisquam quidem rerum nisi at, quia porro sunt. Rerum iste, consequatur voluptas perspiciatis fugit eligendi dignissimos non mollitia reiciendis cumque ut, sint explicabo. Iure, ipsum natus atque pariatur vero saepe."
+  },
+  {
+    "title": "DSC 106 Project 2",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Recusandae ipsum iusto rerum perferendis voluptatem. Ipsa soluta, dolorum quia quaerat, maxime nesciunt recusandae asperiores, possimus tenetur distinctio facilis non? Repellendus et eligendi suscipit earum accusamus soluta saepe molestiae excepturi!"
+  },
+  {
+    "title": "Climate in Major U.S. Cities",
+    "year": "2025",
+    "image": "../images/dsc106-project01.jpg",
+    "description": "A visualization that displays average monthly rainfall data and sunshine hours for six major U.S. cities (Chicago, New York City, Miami, Houston, San Francisco, and San Diego), spanning a full year. Rainfall is represented by the cloud markers while sunshine is represented by the sun markers."
+  },
+  {
+    "title": "MRI Liver Segmentation",
+    "year": "2024",
+    "image": "../images/Figure 1.png",
+    "description": "Implemented multiple advanced segmentation models, specifically convolutional neural networks, to predict and segment the liver from 3D MRIs and CT scans for further analysis of liver characteristics and future diagnosis of liver disease."
+  },
+  {
+    "title": "Image Registration for Cancer Treatment Dose Delivery",
+    "year": "2024",
+    "image": "../images/img_reg.jpg",
+    "description": "Performed image registration across multi-phase MRI scans (arterial, delayed, portal venous, precontrast) for pre- and post-treatment analysis of cancer dose delivery."
+  },
+  {
+    "title": "World Marriage Analysis",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Statistical analysis that uses marriage data from the United Nations to answer the question “is there a statistically significant direct correlation between age at marriage and divorce rates in Western countries from 1950 to 2019?”."
+  },
+  {
+    "title": "Kaggle Machine Learning & Data Science Survey Statistical Analysis",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "An in-depth statistical analysis of the Kaggle Machine Learning & Data Science Survey, offering insights into the demographics, trends, and disparities within the data science and machine learning community."
+  },
+  {
+    "title": "League of Legends Dragon Analysis",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A comprehensive data science project that encompasses all components of statistical analysis, starting with exploratory data analysis, followed by hypothesis testing and prediction models. The primary focus of this project is to analyze the relationships between in game neutral objectives (specifically Dragons) and game outcome."
+  },
+  {
+    "title": "Basic Image Processing Application",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A basic image processing application that allows users to apply various filters to images, such as grayscale, sepia, and blur. The application also simulates standard and premium versions of a monetized app."
+  },
+  {
+    "title": "British Bake Off Data Analysis",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A data analysis project that explores the relationships between various elements of the British Bake Off. The project uses data visualization techniques to identify trends and patterns in the data."
+  },
+  {
+    "title": "Restuarant Analysis",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A data analysis project that explores data about several restaurants and their rankings."
+  }
 ]

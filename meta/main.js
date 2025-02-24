@@ -248,6 +248,7 @@ function updateSelectionCount() {
     return selectedCommits;
   }
 
+
 function updateLanguageBreakdown() {
     const selectedCommits = brushSelection
       ? commits.filter(isCommitSelected)

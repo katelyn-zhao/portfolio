@@ -6,10 +6,16 @@
     "description": "Corrupti iure facere nesciunt sunt quibusdam esse tempora eius, atque aspernatur quia placeat cumque quasi. Recusandae molestias laborum incidunt blanditiis deserunt aperiam reiciendis illo totam officia perspiciatis, quos esse alias?"
   },
   {
-    "title": "DSC 106 Project 3",
+    "title": "Bikewatching",
     "year": "2025",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Quisquam quidem rerum nisi at, quia porro sunt. Rerum iste, consequatur voluptas perspiciatis fugit eligendi dignissimos non mollitia reiciendis cumque ut, sint explicabo. Iure, ipsum natus atque pariatur vero saepe."
+    "image": "../images/bikewatching.jpg",
+    "description": "An immersive, interactive map visualization of bike traffic in the Boston area during different times of the day."
+  },
+  {
+    "title": "Mouse Temperature Data Visualization",
+    "year": "2025",
+    "image": "../images/project-03.jpg",
+    "description": "An interactive visualization that displays the temperatures of mice over time, allowing users to explore the data and make comparisons between different mice of different sexes."
   },
   {
     "title": "DSC 106 Project 2",

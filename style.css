@@ -321,3 +321,21 @@ circle.selected {
   grid-row: 2;
   padding: 0.5em;
 }
+
+#slider-container {
+  display: flex;
+  align-items: baseline;
+  flex: 1;
+  margin-bottom: 10px; /* Adds space above the scatterplot */
+}
+
+#commit-slider {
+  margin: 0 10px;
+  flex-grow: 1;
+}
+
+#commit-time {
+  margin-left: auto; /* Pushes the time element to the right */
+  font-weight: bold;
+}
+

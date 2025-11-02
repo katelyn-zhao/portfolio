@@ -2,79 +2,79 @@
   {
     "title": "The Surgical Journey Through Life",
     "year": "2025",
-    "image": "../images/dsc106_finalproject.png",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/dsc106_finalproject.png",
     "description": "An interactive timeline that visualizes the most common surgical procedures by bodily system across different age groups, along with key health considerations and insights."
   },
   {
     "title": "Bikewatching",
     "year": "2025",
-    "image": "../images/bikewatching.jpg",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/bikewatching.jpg",
     "description": "An immersive, interactive map visualization of bike traffic in the Boston area during different times of the day."
   },
   {
     "title": "Mouse Temperature Data Visualization",
     "year": "2025",
-    "image": "../images/project-03.jpg",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/project-03.jpg",
     "description": "An interactive visualization that displays the temperatures of mice over time, allowing users to explore the data and make comparisons between different mice of different sexes."
   },
   {
     "title": "Earnest vs. Deceptive Visualizations",
     "year": "2025",
-    "image": "../images/dsc106-project2.png",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/dsc106-project2.png",
     "description": "A comparative analysis of two visualizations representing the same dataset, one designed to be earnest and the other deceptive, highlighting how design choices can influence interpretation."
   },
   {
     "title": "Climate in Major U.S. Cities",
     "year": "2025",
-    "image": "../images/dsc106-project01.jpg",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/dsc106-project01.jpg",
     "description": "A visualization that displays average monthly rainfall data and sunshine hours for six major U.S. cities (Chicago, New York City, Miami, Houston, San Francisco, and San Diego), spanning a full year. Rainfall is represented by the cloud markers while sunshine is represented by the sun markers."
   },
   {
     "title": "Image Colorization using Deep Learning",
     "year": "2025",
-    "image": "../images/ece176-finalproject.png",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/ece176-finalproject.png",
     "description": "Developed a machine learning-based approach for colorizing old satellite images to enhance their readability and utility in historical environmental analysis."
   },
   {
     "title": "MRI Liver Segmentation",
     "year": "2024",
-    "image": "../images/Figure 1.png",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/Figure 1.png",
     "description": "Implemented multiple advanced segmentation models, specifically convolutional neural networks, to predict and segment the liver from 3D MRIs and CT scans for further analysis of liver characteristics and future diagnosis of liver disease."
   },
   {
     "title": "Image Registration for Cancer Treatment Dose Delivery",
     "year": "2024",
-    "image": "../images/img_reg.jpg",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/img_reg.jpg",
     "description": "Performed image registration across multi-phase MRI scans (arterial, delayed, portal venous, precontrast) for pre- and post-treatment analysis of cancer dose delivery."
   },
   {
     "title": "Kaggle Machine Learning & Data Science Survey Statistical Analysis",
     "year": "2024",
-    "image": "../images/dsc190-finalproject.png",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/dsc190-finalproject.png",
     "description": "An in-depth statistical analysis of the Kaggle Machine Learning & Data Science Survey, offering insights into the demographics, trends, and disparities within the data science and machine learning community."
   },
   {
     "title": "League of Legends Dragon Analysis",
     "year": "2024",
-    "image": "../images/dsc80-lolproject.png",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/dsc80-lolproject.png",
     "description": "A comprehensive data science project that encompasses all components of statistical analysis, starting with exploratory data analysis, followed by hypothesis testing and prediction models. The primary focus of this project is to analyze the relationships between in game neutral objectives (specifically Dragons) and game outcome."
   },
   {
     "title": "Basic Image Processing Application",
     "year": "2023",
-    "image": "../images/steve_mona_lisa.png",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/steve_mona_lisa.png",
     "description": "A basic image processing application that allows users to apply various filters to images, such as grayscale, sepia, and blur. The application also simulates standard and premium versions of a monetized app."
   },
   {
     "title": "British Bake Off Data Analysis",
     "year": "2023",
-    "image": "../images/dsc10-finalproject.png",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/dsc10-finalproject.png",
     "description": "A data analysis project that explores the relationships between various elements of the British Bake Off. The project uses data visualization techniques to identify trends and patterns in the data."
   },
   {
     "title": "Restuarant Analysis",
     "year": "2023",
-    "image": "../images/dsc10-midtermproject.png",
+    "image": "https://github.com/katelyn-zhao/portfolio/images/dsc10-midtermproject.png",
     "description": "A data analysis project that explores data about several restaurants and their rankings."
   }
 ]

@@ -18,6 +18,12 @@
     "description": "An interactive visualization that displays the temperatures of mice over time, allowing users to explore the data and make comparisons between different mice of different sexes."
   },
   {
+    "title": "Earnest vs. Deceptive Visualizations",
+    "year": "2025",
+    "image": "../images/dsc106-project2.png",
+    "description": "A comparative analysis of two visualizations representing the same dataset, one designed to be earnest and the other deceptive, highlighting how design choices can influence interpretation."
+  },
+  {
     "title": "Climate in Major U.S. Cities",
     "year": "2025",
     "image": "../images/dsc106-project01.jpg",

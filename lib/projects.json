@@ -1,6 +1,6 @@
 [
   {
-    "title": "DSC 106 Final Project",
+    "title": "The Surgical Journey Through Life",
     "year": "2025",
     "image": "../images/dsc106_finalproject.png",
     "description": "An interactive timeline that visualizes the most common surgical procedures by bodily system across different age groups, along with key health considerations and insights."
@@ -36,12 +36,6 @@
     "description": "Performed image registration across multi-phase MRI scans (arterial, delayed, portal venous, precontrast) for pre- and post-treatment analysis of cancer dose delivery."
   },
   {
-    "title": "World Marriage Analysis",
-    "year": "2024",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Statistical analysis that uses marriage data from the United Nations to answer the question “is there a statistically significant direct correlation between age at marriage and divorce rates in Western countries from 1950 to 2019?”."
-  },
-  {
     "title": "Kaggle Machine Learning & Data Science Survey Statistical Analysis",
     "year": "2024",
     "image": "../images/dsc190-finalproject.png",
@@ -50,25 +44,25 @@
   {
     "title": "League of Legends Dragon Analysis",
     "year": "2024",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "image": "../images/dsc80-lolproject.png",
     "description": "A comprehensive data science project that encompasses all components of statistical analysis, starting with exploratory data analysis, followed by hypothesis testing and prediction models. The primary focus of this project is to analyze the relationships between in game neutral objectives (specifically Dragons) and game outcome."
   },
   {
     "title": "Basic Image Processing Application",
     "year": "2023",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "image": "../images/steve_mona_lisa.png",
     "description": "A basic image processing application that allows users to apply various filters to images, such as grayscale, sepia, and blur. The application also simulates standard and premium versions of a monetized app."
   },
   {
     "title": "British Bake Off Data Analysis",
     "year": "2023",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "image": "../images/dsc10-finalproject.png",
     "description": "A data analysis project that explores the relationships between various elements of the British Bake Off. The project uses data visualization techniques to identify trends and patterns in the data."
   },
   {
     "title": "Restuarant Analysis",
     "year": "2023",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "image": "../images/dsc10-midtermproject.png",
     "description": "A data analysis project that explores data about several restaurants and their rankings."
   }
 ]

@@ -30,6 +30,12 @@
     "description": "A visualization that displays average monthly rainfall data and sunshine hours for six major U.S. cities (Chicago, New York City, Miami, Houston, San Francisco, and San Diego), spanning a full year. Rainfall is represented by the cloud markers while sunshine is represented by the sun markers."
   },
   {
+    "title": "Image Colorization using Deep Learning",
+    "year": "2025",
+    "image": "../images/ece176-finalproject.png",
+    "description": "Developed a machine learning-based approach for colorizing old satellite images to enhance their readability and utility in historical environmental analysis."
+  },
+  {
     "title": "MRI Liver Segmentation",
     "year": "2024",
     "image": "../images/Figure 1.png",

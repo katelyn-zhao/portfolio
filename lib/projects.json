@@ -2,8 +2,8 @@
   {
     "title": "DSC 106 Final Project",
     "year": "2025",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Corrupti iure facere nesciunt sunt quibusdam esse tempora eius, atque aspernatur quia placeat cumque quasi. Recusandae molestias laborum incidunt blanditiis deserunt aperiam reiciendis illo totam officia perspiciatis, quos esse alias?"
+    "image": "../images/dsc106_finalproject.png",
+    "description": "An interactive timeline that visualizes the most common surgical procedures by bodily system across different age groups, along with key health considerations and insights."
   },
   {
     "title": "Bikewatching",
@@ -16,12 +16,6 @@
     "year": "2025",
     "image": "../images/project-03.jpg",
     "description": "An interactive visualization that displays the temperatures of mice over time, allowing users to explore the data and make comparisons between different mice of different sexes."
-  },
-  {
-    "title": "DSC 106 Project 2",
-    "year": "2025",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Recusandae ipsum iusto rerum perferendis voluptatem. Ipsa soluta, dolorum quia quaerat, maxime nesciunt recusandae asperiores, possimus tenetur distinctio facilis non? Repellendus et eligendi suscipit earum accusamus soluta saepe molestiae excepturi!"
   },
   {
     "title": "Climate in Major U.S. Cities",
@@ -50,7 +44,7 @@
   {
     "title": "Kaggle Machine Learning & Data Science Survey Statistical Analysis",
     "year": "2024",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "image": "../images/dsc190-finalproject.png",
     "description": "An in-depth statistical analysis of the Kaggle Machine Learning & Data Science Survey, offering insights into the demographics, trends, and disparities within the data science and machine learning community."
   },
   {

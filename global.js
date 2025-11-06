@@ -113,6 +113,7 @@ export function renderProjects(project, containerElement, headingLeve = "h2") {
 
   for (const proj of project) {
     const article = document.createElement("article");
+    const hasValidLink = proj.link && proj.link.toLowerCase() !== "";
     article.innerHTML = `
             <h3>${proj.title}</h3>
             <h4>${proj.year}</h4>

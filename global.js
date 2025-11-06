@@ -118,6 +118,11 @@ export function renderProjects(project, containerElement, headingLeve = "h2") {
             <h4>${proj.year}</h4>
             <img src="${proj.image}" alt="${proj.title}">
             <p>${proj.description}</p>
+            ${
+              hasValidLink
+                ? `<p><a href="${proj.link}" target="_blank" rel="noopener noreferrer">View Project →</a></p>`
+                : ""
+            }
         `;
     containerElement.appendChild(article);
   }

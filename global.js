@@ -108,12 +108,15 @@ export async function fetchJSON(url) {
   }
 }
 
-export function renderProjects(project, containerElement, headingLeve = "h2") {
+export function renderProjects(project, containerElement, headingLevel = "h2") {
   containerElement.innerHTML = "";
 
   for (const proj of project) {
     const article = document.createElement("article");
-    const hasValidLink = proj.link && proj.link.toLowerCase() !== "";
+    const hasValidLink =
+      typeof proj.link === "string" &&
+      proj.link.trim() !== "" &&
+      proj.link.toLowerCase() !== "none";
     article.innerHTML = `
             <h3>${proj.title}</h3>
             <h4>${proj.year}</h4>
